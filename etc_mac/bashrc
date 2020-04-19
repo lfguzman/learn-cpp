@@ -1,0 +1,23 @@
+# .bashrc
+
+# Source global definitions 
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# User specific aliases and functions
+
+alias ll='ls -Gl'
+alias ls='ls -G'
+alias la='ls -GA'
+
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+
+HISTSIZE=20000
+HISTFILESIZE=20000
+
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend
+
+umask 0002

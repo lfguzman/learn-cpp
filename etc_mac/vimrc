@@ -1,0 +1,16 @@
+colorscheme desert
+syntax on
+set guifont=Menlo\ Regular:h14
+set showmatch
+set shiftwidth=4
+set smartindent
+set tabstop=4
+set smarttab
+set expandtab
+set nohlsearch
+set ru
+set tags=~/tmp/tags
+set wmh=0
+set wmw=0
+map <C-N> :bn<CR>
+map <C-P> :bp<CR>
